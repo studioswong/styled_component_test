@@ -2,8 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const mysql = require('mysql');
 
-const app = express()
-;
+const app = express();
 const SELECT_REPORT = 'SELECT * FROM `report`';
 const SELECT_INSERTION = 'SELECT * FROM `insertion_order`';
 
