@@ -55,25 +55,24 @@ class App extends Component {
       <div className="App">
           <BrowserRouter>
             <div>
-            <header className="App-header">
-              <img src={logo} className="App-logo" alt="logo" />
-              <h1 className="App-title">Redefining Mobile Advertising</h1>
-            </header>
-            <Switch>
-              <Route path="/insertion_data" exact component={InsertionOrder} />
-              <Route path="/campaign" exact component={Campaign} />
-              <Route path="/report" exact component={Report} />
-              <Route path="/all" exact component={All} />
-            </Switch>
+              <header className="App-header">
+                <img src={logo} className="App-logo" alt="logo" />
+                <h1 className="App-title">Redefining Mobile Advertising</h1>
+              </header>
+              <ul>
+                <li><Link to="/insertion_data">Insertion Data</Link></li>
+                <li><Link to="/campaign">Campaign</Link></li>
+                <li><Link to="/report">Report</Link></li>
+                <li><Link to="/all">Show All</Link></li>
+              </ul>
+              <Switch>
+                <Route path="/insertion_data" exact component={InsertionOrder} />
+                <Route path="/campaign" exact component={Campaign} />
+                <Route path="/report" exact component={Report} />
+                <Route path="/all" exact component={All} />
+              </Switch>
             </div>
           </BrowserRouter>
-
-        {/* <h1 className="App-title">Insertion Order Data</h1>
-        <InsertionOrderTable data={InsertionOrderData}/>
-        <h1 className="App-title">Campaign Data</h1>
-        <CampaignTable data={CampaignData}/>
-        <h1 className="App-title">Report Data ( rows 1 - 10 )</h1>
-        <ReportTable data={ReportData}/> */}
       </div>
     );
   }
