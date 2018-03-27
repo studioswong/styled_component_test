@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Router } from 'react-router'
+import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
 import logo from './newludio_white.svg';
 import './App.css';
 import ReportTable from './components/ReportTable';
@@ -18,8 +18,35 @@ const InsertionOrder = () => {
   )
 }
 
-const CampaignData = () => {
+const Campaign = () => {
+  return (
+    <div>
+      <h1 className="App-title">Campaign Data</h1>
+        <CampaignTable data={CampaignData}/>
+    </div>
+  )
+}
 
+const Report = () => {
+  return (
+    <div>
+      <h1 className="App-title">Report Data ( rows 1 - 10 )</h1>
+      <ReportTable data={ReportData}/>
+    </div>
+  )
+}
+
+const All = () =>{
+  return (
+    <div>
+      <h1 className="App-title">Insertion Order Data</h1>
+      <InsertionOrderTable data={InsertionOrderData}/>
+      <h1 className="App-title">Campaign Data</h1>
+      <CampaignTable data={CampaignData}/>
+      <h1 className="App-title">Report Data ( rows 1 - 10 )</h1>
+      <ReportTable data={ReportData}/>
+    </div>
+  )
 }
 
 class App extends Component {
@@ -33,19 +60,20 @@ class App extends Component {
               <h1 className="App-title">Redefining Mobile Advertising</h1>
             </header>
             <Switch>
-              <Route path="/insertion_data" exact component={Home} />
-              <Route path="/style/(architecture|arts|fashion|luxury|autos)" component={Topic} />
-              <Route component={NoMatch} />
+              <Route path="/insertion_data" exact component={InsertionOrder} />
+              <Route path="/campaign" exact component={Campaign} />
+              <Route path="/report" exact component={Report} />
+              <Route path="/all" exact component={All} />
             </Switch>
             </div>
           </BrowserRouter>
 
-        <h1 className="App-title">Insertion Order Data</h1>
+        {/* <h1 className="App-title">Insertion Order Data</h1>
         <InsertionOrderTable data={InsertionOrderData}/>
         <h1 className="App-title">Campaign Data</h1>
         <CampaignTable data={CampaignData}/>
         <h1 className="App-title">Report Data ( rows 1 - 10 )</h1>
-        <ReportTable data={ReportData}/>
+        <ReportTable data={ReportData}/> */}
       </div>
     );
   }
