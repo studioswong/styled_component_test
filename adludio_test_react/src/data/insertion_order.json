@@ -1,0 +1,136 @@
+[{
+    "id": "21",
+    "name": "Francis's Test Campaign",
+    "description": "Francis's Test Campaign",
+    "id_account_manager": "-1",
+    "id_brand": "35",
+    "id_agency": "-1",
+    "created_at": "2015-02-23 13:24:38",
+    "modified_at": "2016-06-02 14:19:24"
+}, {
+    "id": "23",
+    "name": "Testing Ad Tag",
+    "description": "test",
+    "id_account_manager": "39",
+    "id_brand": "35",
+    "id_agency": "6",
+    "created_at": "2015-02-23 13:24:38",
+    "modified_at": "2016-08-10 09:31:47"
+}, {
+    "id": "77",
+    "name": "Haliborange Mini Packs",
+    "description": "Haliborange (owned by merck)",
+    "id_account_manager": "39",
+    "id_brand": "110",
+    "id_agency": "19",
+    "created_at": "2016-01-27 10:37:17",
+    "modified_at": "2016-07-12 19:39:16"
+}, {
+    "id": "86",
+    "name": "Microsoft Azure",
+    "description": "Microsoft Azure",
+    "id_account_manager": "39",
+    "id_brand": "83",
+    "id_agency": "8",
+    "created_at": "2016-03-11 16:35:11",
+    "modified_at": "2016-03-11 17:01:31"
+}, {
+    "id": "108",
+    "name": "Huawei Innovation Day",
+    "description": "Huawei Innovation Day",
+    "id_account_manager": "84",
+    "id_brand": "98",
+    "id_agency": "15",
+    "created_at": "2016-06-02 12:40:56",
+    "modified_at": "2016-07-12 19:31:20"
+}, {
+    "id": "111",
+    "name": "Lenovo X1 FR",
+    "description": "Lenovo X1 FR",
+    "id_account_manager": "35",
+    "id_brand": "99",
+    "id_agency": "23",
+    "created_at": "2016-06-08 15:30:48",
+    "modified_at": "2016-07-12 19:29:02"
+}, {
+    "id": "114",
+    "name": "O2 More For You",
+    "description": "An awareness campaign to 'reboot' the O2 brand and present it as 'beyond just a phone'.",
+    "id_account_manager": "39",
+    "id_brand": "102",
+    "id_agency": "2",
+    "created_at": "2016-06-14 10:11:15",
+    "modified_at": "2016-06-17 13:17:09"
+}, {
+    "id": "121",
+    "name": "Royal Mail Special Delivery",
+    "description": "Brand campaign delivered programmatically via Mobext. Mobile and tablet ONLY - MPU and Interstitial formats.",
+    "id_account_manager": "39",
+    "id_brand": "106",
+    "id_agency": "2",
+    "created_at": "2016-07-08 11:10:28",
+    "modified_at": "2016-07-12 19:28:19"
+}, {
+    "id": "125",
+    "name": "Huawei Connect 2016",
+    "description": "An awareness campaign to promote the Huawei Connect 2016, drive traffic to the event website and generate registrations for the event.",
+    "id_account_manager": "157",
+    "id_brand": "98",
+    "id_agency": "27",
+    "created_at": "2016-07-25 11:29:23",
+    "modified_at": "2016-08-09 14:20:45"
+}, {
+    "id": "126",
+    "name": "Ben & Jerry\u2019s Cookie Core ",
+    "description": "Raise awareness of Ben & Jerry\u2019s Cookie Core collection, during the summer months, with special focus on video completion (brand storytelling).",
+    "id_account_manager": "35",
+    "id_brand": "114",
+    "id_agency": "5",
+    "created_at": "2016-07-25 16:03:55",
+    "modified_at": "2016-07-26 11:58:14"
+}, {
+    "id": "127",
+    "name": "NowTV Combo - Announce",
+    "description": "Campaign to promote Sky's NowTV combo bundle. To be served across InText and Playcaptcha inventory only.",
+    "id_account_manager": "157",
+    "id_brand": "115",
+    "id_agency": "20",
+    "created_at": "2016-07-28 11:55:26",
+    "modified_at": "2016-07-29 10:47:03"
+}, {
+    "id": "129",
+    "name": "Maria Casino",
+    "description": "Maria Casino",
+    "id_account_manager": "210",
+    "id_brand": "116",
+    "id_agency": "28",
+    "created_at": "2016-08-03 14:59:52",
+    "modified_at": "2016-08-03 14:59:52"
+}, {
+    "id": "130",
+    "name": "Unilever Monoprix FR Summer",
+    "description": "This campaign will have two creatives: One in English and one in French. The campaign will be served on MRAID and mobile web interstitial. ",
+    "id_account_manager": "209",
+    "id_brand": "103",
+    "id_agency": "29",
+    "created_at": "2016-08-15 13:55:16",
+    "modified_at": "2016-08-18 09:15:25"
+}, {
+    "id": "131",
+    "name": "Haliborange Phase 2",
+    "description": "Haliborange (Merck) Phase 2",
+    "id_account_manager": "39",
+    "id_brand": "110",
+    "id_agency": "19",
+    "created_at": "2016-08-18 09:41:31",
+    "modified_at": "2016-08-18 09:41:31"
+}, {
+    "id": "132",
+    "name": "NowTV Combo - Announce BIO",
+    "description": "NowTV Combo - Announce BIO",
+    "id_account_manager": "157",
+    "id_brand": "115",
+    "id_agency": "20",
+    "created_at": "2016-08-22 10:22:54",
+    "modified_at": "2016-08-22 10:22:54"
+}]

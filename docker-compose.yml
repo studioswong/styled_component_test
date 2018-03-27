@@ -1,0 +1,32 @@
+backend:
+  build: ./backend/.
+  ports:
+    - "3000:3000"
+  volumes:
+    - "./backend:/backend"
+  command: "npm run dev"
+  environment:
+    - MYSQL_ROOT_PASSWORD=root
+    - MYSQL_USER=root
+    - NODE_ENV=development
+  links:
+    - "mysql:mysql"
+storage:
+  image: arungupta/mysql-data-container
+  volumes: 
+    - /var/lib/mysql
+  command: tail -f /dev/null
+mysql:
+  image: mysql:5.6
+  environment:
+    - MYSQL_ROOT_PASSWORD=root
+    - MYSQL_USER=root
+    - MYSQL_DATABASE=test_adludio
+  volumes_from: 
+    - storage
+phpmyadmin:
+  image: corbinu/docker-phpmyadmin
+  ports: 
+    - "8081:80"
+  links: 
+    - mysql
